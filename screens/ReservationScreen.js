@@ -11,7 +11,6 @@ import {
 } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import DateTimePicker from '@react-native-community/datetimepicker';
-import { color } from 'react-native-reanimated';
 
 const ReservationScreen = () => {
   const [campers, setCampers] = useState(1);
